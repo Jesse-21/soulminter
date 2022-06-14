@@ -12,7 +12,7 @@ const Index: FC = () => {
 					<div className="space-y-2.5 mb-4">
 						<h1 className="text-white font-semibold text-5xl">Soulminter</h1>
 
-						<p className="text-gray-500 text-xl">One-click mint for Soulbound NFTs on Optimism.</p>
+						<p className="text-gray-500 text-xl">One-click mint for "Of 1 NFT Marketplace" Soulbound NFT Keys on Polygon.</p>
 					</div>
 					<ConnectWallet hideGuest />
 				</header>
