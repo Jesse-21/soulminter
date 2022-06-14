@@ -10,7 +10,7 @@ import { chain, createClient, WagmiProvider } from 'wagmi'
 import { apiProvider, configureChains, getDefaultWallets, RainbowKitProvider, darkTheme } from '@rainbow-me/rainbowkit'
 
 const { chains, provider } = configureChains(
-	[chain.mainnet, chain.optimism, chain.optimismKovan, chain.polygon, chain.polygonMumbai],
+	[chain.polygon, chain.polygonMumbai],
 	[apiProvider.infura(process.env.NEXT_PUBLIC_INFURA_ID), apiProvider.fallback()]
 )
 
